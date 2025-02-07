@@ -11,11 +11,11 @@
 
     <name>Serverless Spring API</name>
     <url>https://github.com/aws/serverless-java-container</url>
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-dependency-plugin</artifactId>
-    <version>3.1.2</version>  <!-- Change to a compatible version -->
-</plugin>
+
+<properties>
+     <maven.compiler.source>1.8</maven.compiler.source>
+     <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 
 
     <properties>
